@@ -35,8 +35,8 @@ func StreamHandler(w http.ResponseWriter, req *http.Request) {
 			{
 				Kinds: []int{
 					nostr.KindTextNote,
-					nostr.KindRepost,
-					nostr.KindReaction,
+					//nostr.KindRepost,
+					//nostr.KindReaction,
 				},
 				Since: &now,
 			},
